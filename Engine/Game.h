@@ -36,6 +36,9 @@ private:
 	void UpdateModel();
 	/********************************/
 	/*  User Functions              */
+	void horizontalline(int desde, int hasta, int ylevel, int red, int green, int blue);
+	void verticalline(int desde, int hasta, int xlevel, int red, int green, int blue);
+
 	/********************************/
 private:
 	MainWindow& wnd;
@@ -44,6 +47,8 @@ private:
 	/*  User Variables              */
 	int X0;
 	int Y0;
+	int xline;
+	int yline;
 	bool vertical;
 	/********************************/
 };
